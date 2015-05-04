@@ -67,7 +67,7 @@ Starting synthesis...
 xc7z0102default:defaultZ17-349
 ú
 %s*synth2å
-xStarting RTL Elaboration : Time (s): cpu = 00:01:48 ; elapsed = 00:02:25 . Memory (MB): peak = 278.711 ; gain = 131.766
+xStarting RTL Elaboration : Time (s): cpu = 00:01:50 ; elapsed = 00:02:29 . Memory (MB): peak = 277.969 ; gain = 130.887
 2default:default
 ·
 synthesizing module '%s'638*oasys2"
@@ -5539,19 +5539,19 @@ hc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_xba
 12default:default2f
 PC:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 6002default:default8@Z8-256
-‡
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2:
-&system_rst_processing_system7_0_100M_02default:default2±
-úc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd2default:default2
-562default:default21
-rst_processing_system7_0_100M2default:default2:
-&system_rst_processing_system7_0_100M_02default:default2f
+€
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys29
+%system_rst_processing_system7_0_50M_02default:default2Ø
+öc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/synth/system_rst_processing_system7_0_50M_0.vhd2default:default2
+562default:default20
+rst_processing_system7_0_50M2default:default29
+%system_rst_processing_system7_0_50M_02default:default2f
 PC:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 15152default:default8@Z8-3491
-ø
-synthesizing module '%s'638*oasys2:
-&system_rst_processing_system7_0_100M_02default:default2≥
-úc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd2default:default2
+º
+synthesizing module '%s'638*oasys29
+%system_rst_processing_system7_0_50M_02default:default2±
+öc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/synth/system_rst_processing_system7_0_50M_0.vhd2default:default2
 712default:default8@Z8-638
 V
 %s*synth2G
@@ -5589,19 +5589,19 @@ C	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer
 %s*synth2O
 ;	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
 2default:default
-Ê
+„
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2"
-proc_sys_reset2default:default2¥
-üc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
+proc_sys_reset2default:default2≥
+ûc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
 1402default:default2
 U02default:default2"
-proc_sys_reset2default:default2≥
-úc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd2default:default2
+proc_sys_reset2default:default2±
+öc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/synth/system_rst_processing_system7_0_50M_0.vhd2default:default2
 1172default:default8@Z8-3491
-ª
+∫
 synthesizing module '%s'638*oasys22
-proc_sys_reset__parameterized02default:default2∂
-üc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
+proc_sys_reset__parameterized02default:default2µ
+ûc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
 1992default:default8@Z8-638
 V
 %s*synth2G
@@ -5639,10 +5639,10 @@ C	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer
 %s*synth2O
 ;	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
 2default:default
-ï
+î
 synthesizing module '%s'638*oasys2
-lpf2default:default2´
-îc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
+lpf2default:default2™
+ìc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
 1362default:default8@Z8-638
 [
 %s*synth2L
@@ -5660,14 +5660,14 @@ O
 %s*synth2@
 ,	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
 2default:default
-È
+Ë
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRL162default:default2I
 5D:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 347842default:default2
 	POR_SRL_I2default:default2
-SRL162default:default2´
-îc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
+SRL162default:default2™
+ìc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
 1882default:default8@Z8-3491
 ∏
 synthesizing module '%s'638*oasys2
@@ -5685,54 +5685,54 @@ S
 12default:default2K
 5D:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 347842default:default8@Z8-256
-—
+–
 %done synthesizing module '%s' (%s#%s)256*oasys2
 lpf2default:default2
 462default:default2
-12default:default2´
-îc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
+12default:default2™
+ìc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
 1362default:default8@Z8-256
-ü
+û
 synthesizing module '%s'638*oasys2
-sequence2default:default2∞
-ôc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
+sequence2default:default2Ø
+òc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
 1462default:default8@Z8-638
-ù
+ú
 synthesizing module '%s'638*oasys2
-upcnt_n2default:default2Ø
-òc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd2default:default2
+upcnt_n2default:default2Æ
+óc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd2default:default2
 1262default:default8@Z8-638
 R
 %s*synth2C
 /	Parameter C_SIZE bound to: 6 - type: integer 
 2default:default
-Ÿ
+ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 upcnt_n2default:default2
 472default:default2
-12default:default2Ø
-òc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd2default:default2
+12default:default2Æ
+óc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd2default:default2
 1262default:default8@Z8-256
-€
+⁄
 %done synthesizing module '%s' (%s#%s)256*oasys2
 sequence2default:default2
 482default:default2
-12default:default2∞
-ôc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
+12default:default2Ø
+òc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
 1462default:default8@Z8-256
-˜
+ˆ
 %done synthesizing module '%s' (%s#%s)256*oasys22
 proc_sys_reset__parameterized02default:default2
 492default:default2
-12default:default2∂
-üc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
+12default:default2µ
+ûc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
 1992default:default8@Z8-256
-˚
-%done synthesizing module '%s' (%s#%s)256*oasys2:
-&system_rst_processing_system7_0_100M_02default:default2
+¯
+%done synthesizing module '%s' (%s#%s)256*oasys29
+%system_rst_processing_system7_0_50M_02default:default2
 502default:default2
-12default:default2≥
-úc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd2default:default2
+12default:default2±
+öc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/synth/system_rst_processing_system7_0_50M_0.vhd2default:default2
 712default:default8@Z8-256
 ˝
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2'
@@ -5840,7 +5840,7 @@ XC:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/hdl/system_wr
 312default:default8@Z8-256
 ú
 %s*synth2å
-xFinished RTL Elaboration : Time (s): cpu = 00:02:16 ; elapsed = 00:02:57 . Memory (MB): peak = 370.336 ; gain = 223.391
+xFinished RTL Elaboration : Time (s): cpu = 00:02:20 ; elapsed = 00:03:04 . Memory (MB): peak = 369.777 ; gain = 222.695
 2default:default
 ;
 %s*synth2,
@@ -5938,26 +5938,26 @@ vc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi
 847*designutils2ä
 vc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc2default:default2'
 system_i/sw_4bit/U02default:defaultZ20-847
-Ø
+¨
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2´
-ñc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0.xdc2default:default2=
-)system_i/rst_processing_system7_0_100M/U02default:defaultZ20-848
-∏
--Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2´
-ñc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0.xdc2default:default2=
-)system_i/rst_processing_system7_0_100M/U02default:defaultZ20-847
+848*designutils2©
+îc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0.xdc2default:default2<
+(system_i/rst_processing_system7_0_50M/U02default:defaultZ20-848
 µ
-$Parsing XDC File [%s] for cell '%s'
-848*designutils2±
-úc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0_board.xdc2default:default2=
-)system_i/rst_processing_system7_0_100M/U02default:defaultZ20-848
-æ
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2±
-úc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0_board.xdc2default:default2=
-)system_i/rst_processing_system7_0_100M/U02default:defaultZ20-847
+847*designutils2©
+îc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0.xdc2default:default2<
+(system_i/rst_processing_system7_0_50M/U02default:defaultZ20-847
+≤
+$Parsing XDC File [%s] for cell '%s'
+848*designutils2Ø
+öc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0_board.xdc2default:default2<
+(system_i/rst_processing_system7_0_50M/U02default:defaultZ20-848
+ª
+-Finished Parsing XDC File [%s] for cell '%s'
+847*designutils2Ø
+öc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0_board.xdc2default:default2<
+(system_i/rst_processing_system7_0_50M/U02default:defaultZ20-847
 Ù
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2Ñ
@@ -6019,11 +6019,11 @@ J  A total of 1 instances were transformed.
 2default:defaultZ1-111
 µ
 %s*synth2•
-êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:30 ; elapsed = 00:03:12 . Memory (MB): peak = 548.633 ; gain = 401.688
+êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:36 ; elapsed = 00:03:24 . Memory (MB): peak = 548.191 ; gain = 401.109
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:02:30 ; elapsed = 00:03:12 . Memory (MB): peak = 548.633 ; gain = 401.688
+yFinished RTL Optimization : Time (s): cpu = 00:02:36 ; elapsed = 00:03:24 . Memory (MB): peak = 548.191 ; gain = 401.109
 2default:default
 Î
 merging register '%s' into '%s'3619*oasys22
@@ -6031,11 +6031,11 @@ yFinished RTL Optimization : Time (s): cpu = 00:02:30 ; elapsed = 00:03:12 . Mem
 gen_axilite.s_axi_awready_i_reg2default:default2®
 ëc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
 1362default:default8@Z8-4471
-–
+œ
 merging register '%s' into '%s'3619*oasys2"
 seq_cnt_en_reg2default:default2 
-from_sys_reg2default:default2∞
-ôc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
+from_sys_reg2default:default2Ø
+òc:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
 2222default:default8@Z8-4471
 ì
 0Net %s in module/entity %s does not have driver.3422*oasys2$
@@ -6180,7 +6180,7 @@ BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:02:41 ; elapsed = 00:03:23 . Memory (MB): peak = 597.051 ; gain = 450.105
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:02:49 ; elapsed = 00:03:39 . Memory (MB): peak = 595.711 ; gain = 448.629
 2default:default
 B
 %s*synth23
@@ -7630,9 +7630,9 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 5     
 2default:default
-R
-%s*synth2C
-/Module system_rst_processing_system7_0_100M_0 
+Q
+%s*synth2B
+.Module system_rst_processing_system7_0_50M_0 
 2default:default
 B
 %s*synth23
@@ -8088,7 +8088,7 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 1212default:default8@Z8-3936
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:02:42 ; elapsed = 00:03:24 . Memory (MB): peak = 607.785 ; gain = 460.840
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:02:50 ; elapsed = 00:03:39 . Memory (MB): peak = 606.355 ; gain = 459.273
 2default:default
 ¢
 %s*synth2í
@@ -8110,7 +8110,7 @@ R-------------------------------------------------------------------------------
 2default:default
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:02:43 ; elapsed = 00:03:26 . Memory (MB): peak = 632.137 ; gain = 485.191
+zFinished Area Optimization : Time (s): cpu = 00:02:52 ; elapsed = 00:03:42 . Memory (MB): peak = 631.063 ; gain = 483.980
 2default:default
 {
 %s*synth2l
@@ -8118,15 +8118,15 @@ XINFO: Moved 1 constraints on hierarchical pins to their respective driving/load
 2default:default
 ≠
 %s*synth2ù
-àFinished Applying XDC Timing Constraints : Time (s): cpu = 00:02:45 ; elapsed = 00:03:28 . Memory (MB): peak = 779.855 ; gain = 632.910
+àFinished Applying XDC Timing Constraints : Time (s): cpu = 00:02:54 ; elapsed = 00:03:44 . Memory (MB): peak = 779.512 ; gain = 632.430
 2default:default
 †
 %s*synth2ê
-|Finished Timing Optimization : Time (s): cpu = 00:02:46 ; elapsed = 00:03:28 . Memory (MB): peak = 795.543 ; gain = 648.598
+|Finished Timing Optimization : Time (s): cpu = 00:02:54 ; elapsed = 00:03:45 . Memory (MB): peak = 795.602 ; gain = 648.520
 2default:default
 ü
 %s*synth2è
-{Finished Technology Mapping : Time (s): cpu = 00:02:48 ; elapsed = 00:03:31 . Memory (MB): peak = 803.430 ; gain = 656.484
+{Finished Technology Mapping : Time (s): cpu = 00:02:57 ; elapsed = 00:03:48 . Memory (MB): peak = 802.750 ; gain = 655.668
 2default:default
 k
 %s*synth2\
@@ -8138,7 +8138,7 @@ D
 2default:default
 ô
 %s*synth2â
-uFinished IO Insertion : Time (s): cpu = 00:02:50 ; elapsed = 00:03:33 . Memory (MB): peak = 803.430 ; gain = 656.484
+uFinished IO Insertion : Time (s): cpu = 00:02:59 ; elapsed = 00:03:50 . Memory (MB): peak = 802.750 ; gain = 655.668
 2default:default
 ;
 %s*synth2,
@@ -8167,11 +8167,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ™
 %s*synth2ö
-ÖFinished Renaming Generated Instances : Time (s): cpu = 00:02:50 ; elapsed = 00:03:33 . Memory (MB): peak = 803.430 ; gain = 656.484
+ÖFinished Renaming Generated Instances : Time (s): cpu = 00:02:59 ; elapsed = 00:03:50 . Memory (MB): peak = 802.750 ; gain = 655.668
 2default:default
 ß
 %s*synth2ó
-ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:02:50 ; elapsed = 00:03:33 . Memory (MB): peak = 803.430 ; gain = 656.484
+ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:03:00 ; elapsed = 00:03:50 . Memory (MB): peak = 802.750 ; gain = 655.668
 2default:default
 ¢
 %s*synth2í
@@ -8406,7 +8406,7 @@ q|9     |      xbar                          |system_xbar_1                     
 2default:default
 ï
 %s*synth2Ö
-q|10    |    rst_processing_system7_0_100M   |system_rst_processing_system7_0_100M_0                     |    65|
+q|10    |    rst_processing_system7_0_50M    |system_rst_processing_system7_0_50M_0                      |    65|
 2default:default
 ï
 %s*synth2Ö
@@ -8426,7 +8426,7 @@ q+------+------------------------------------+----------------------------------
 2default:default
 ¶
 %s*synth2ñ
-ÅFinished Writing Synthesis Report : Time (s): cpu = 00:02:51 ; elapsed = 00:03:33 . Memory (MB): peak = 803.430 ; gain = 656.484
+ÅFinished Writing Synthesis Report : Time (s): cpu = 00:03:00 ; elapsed = 00:03:50 . Memory (MB): peak = 802.750 ; gain = 655.668
 2default:default
 j
 %s*synth2[
@@ -8434,7 +8434,7 @@ GSynthesis finished with 0 errors, 0 critical warnings and 22 warnings.
 2default:default
 £
 %s*synth2ì
-Synthesis Optimization Complete : Time (s): cpu = 00:02:51 ; elapsed = 00:03:33 . Memory (MB): peak = 803.430 ; gain = 656.484
+Synthesis Optimization Complete : Time (s): cpu = 00:03:00 ; elapsed = 00:03:50 . Memory (MB): peak = 802.750 ; gain = 655.668
 2default:default
 \
 -Analyzing %s Unisim elements for replacement
@@ -8482,18 +8482,18 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:03:002default:default2
-00:03:432default:default2
-1182.1172default:default2
-960.2302default:defaultZ17-268
+00:03:112default:default2
+00:04:032default:default2
+1181.4382default:default2
+959.1912default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 Ä
-treport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 1182.117 ; gain = 0.000
+treport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.148 . Memory (MB): peak = 1181.438 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Mon Apr 20 16:56:27 20152default:defaultZ17-206
+Mon May 04 20:28:11 20152default:defaultZ17-206

@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date             : Mon Apr 20 17:02:09 2015
+| Date             : Mon May 04 20:34:11 2015
 | Host             : WINDOWS-IMQS54P running 64-bit Service Pack 1  (build 7601)
 | Command          : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb
 | Design           : system_wrapper
@@ -30,13 +30,13 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.423 |
-| Dynamic (W)              | 1.300 |
+| Total On-Chip Power (W)  | 1.445 |
+| Dynamic (W)              | 1.322 |
 | Device Static (W)        | 0.123 |
 | Total Off-Chip Power (W) | 0.121 |
 | Effective TJA (C/W)      | 11.5  |
-| Max Ambient (C)          | 68.6  |
-| Junction Temperature (C) | 41.4  |
+| Max Ambient (C)          | 68.3  |
+| Junction Temperature (C) | 41.7  |
 | Confidence Level         | Low   |
 | Setting File             | ---   |
 | Simulation Activity File | ---   |
@@ -50,18 +50,18 @@ Table of Contents
 +-------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
-| Clocks                  |     0.005 |        2 |       --- |             --- |
+| Clocks                  |     0.003 |        2 |       --- |             --- |
 | Slice Logic             |    <0.001 |     1720 |       --- |             --- |
-|   LUT as Logic          |    <0.001 |      542 |     17600 |            3.07 |
+|   LUT as Logic          |    <0.001 |      543 |     17600 |            3.08 |
 |   Register              |    <0.001 |      778 |     35200 |            2.21 |
 |   CARRY4                |    <0.001 |       18 |      4400 |            0.40 |
 |   LUT as Shift Register |    <0.001 |       62 |      6000 |            1.03 |
 |   Others                |     0.000 |      144 |       --- |             --- |
-| Signals                 |     0.001 |     1239 |       --- |             --- |
+| Signals                 |    <0.001 |     1239 |       --- |             --- |
 | I/O                     |    <0.001 |        8 |       100 |            8.00 |
-| PS7                     |     1.293 |        1 |       --- |             --- |
+| PS7                     |     1.318 |        1 |       --- |             --- |
 | Static Power            |     0.123 |          |           |                 |
-| Total                   |     1.423 |          |           |                 |
+| Total                   |     1.445 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,7 +71,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.013 |       0.007 |      0.006 |
+| Vccint    |       1.000 |     0.010 |       0.004 |      0.006 |
 | Vccaux    |       1.800 |     0.012 |       0.000 |      0.012 |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -84,9 +84,9 @@ Table of Contents
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccpint   |       1.000 |     0.409 |       0.381 |      0.027 |
+| Vccpint   |       1.000 |     0.417 |       0.390 |      0.027 |
 | Vccpaux   |       1.800 |     0.044 |       0.033 |      0.010 |
-| Vccpll    |       1.800 |     0.119 |       0.116 |      0.003 |
+| Vccpll    |       1.800 |     0.128 |       0.125 |      0.003 |
 | Vcco_ddr  |       1.500 |     0.511 |       0.509 |      0.002 |
 | Vcco_mio0 |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco_mio1 |       1.800 |     0.001 |       0.000 |      0.001 |
@@ -134,8 +134,8 @@ Table of Contents
 +---------------------------------------------------------+---------------------------------------------------------+-----------------+
 | Clock                                                   | Domain                                                  | Constraint (ns) |
 +---------------------------------------------------------+---------------------------------------------------------+-----------------+
-| system_i/processing_system7_0/U0/FCLK_CLK0              | system_i/processing_system7_0/U0/FCLK_CLK0              |            10.0 |
-| system_i/processing_system7_0/U0/FCLK_CLK_unbuffered[0] | system_i/processing_system7_0/U0/FCLK_CLK_unbuffered[0] |            10.0 |
+| system_i/processing_system7_0/U0/FCLK_CLK0              | system_i/processing_system7_0/U0/FCLK_CLK0              |            20.0 |
+| system_i/processing_system7_0/U0/FCLK_CLK_unbuffered[0] | system_i/processing_system7_0/U0/FCLK_CLK_unbuffered[0] |            20.0 |
 +---------------------------------------------------------+---------------------------------------------------------+-----------------+
 
 
@@ -148,16 +148,16 @@ Table of Contents
 +-------------------------------------+-----------+
 | Name                                | Power (W) |
 +-------------------------------------+-----------+
-| system_wrapper                      |     1.300 |
-|   system_i                          |     1.300 |
+| system_wrapper                      |     1.322 |
+|   system_i                          |     1.322 |
 |     btns_4bit                       |    <0.001 |
 |       U0                            |    <0.001 |
-|     processing_system7_0            |     1.293 |
-|       U0                            |     1.293 |
-|     processing_system7_0_axi_periph |     0.006 |
-|       s00_couplers/auto_pc          |     0.005 |
+|     processing_system7_0            |     1.319 |
+|       U0                            |     1.319 |
+|     processing_system7_0_axi_periph |     0.003 |
+|       s00_couplers/auto_pc          |     0.003 |
 |       xbar                          |    <0.001 |
-|     rst_processing_system7_0_100M   |    <0.001 |
+|     rst_processing_system7_0_50M    |    <0.001 |
 |       U0                            |    <0.001 |
 |     sw_4bit                         |    <0.001 |
 |       U0                            |    <0.001 |

@@ -1,4 +1,4 @@
-17:07:34 **** Build of project standalone_bsp_0 ****
+20:39:07 **** Build of project standalone_bsp_0 ****
 make -k all 
 libgen -hw ../hw_platform_0/system.xml\
 	       \
@@ -39,5 +39,5 @@ arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
 Running execs_generate.
 'Finished building libraries'
 
-17:08:11 Build Finished (took 36s.947ms)
+20:39:43 Build Finished (took 36s.333ms)
 

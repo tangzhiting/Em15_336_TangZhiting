@@ -1,34 +1,56 @@
-13:16:37.440 INFO  - Processing command line option -hwspec C:/xup/embedded/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
-13:23:13.086 INFO  - Processor reset is completed for ps7_cortexa9_0 
-13:23:13.195 INFO  - PS initialization will be done as it is not done before. 
-13:23:13.195 INFO  - Running PS initialization.... 
-13:23:13.507 INFO  - ps7_init is completed. 
-13:23:13.617 INFO  - PS Initialization is complete. 
-13:25:51.725 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
-17:05:18.037 INFO  - Processing command line option -hwspec C:/Users/Administrator/Desktop/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
-17:05:18.158 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/Administrator/Desktop/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
-17:05:18.186 INFO  - Copied contents of C:/Users/Administrator/Desktop/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
-17:05:18.198 INFO  - Copied contents of C:\Users\Administrator\Desktop\lab2\lab2.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system.bit. 
-17:05:18.416 INFO  - Copied contents of C:\Users\Administrator\Desktop\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
-17:05:18.418 INFO  - Copied contents of C:\Users\Administrator\Desktop\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
-17:05:18.424 INFO  - Copied contents of C:\Users\Administrator\Desktop\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
-17:05:18.425 INFO  - Copied contents of C:\Users\Administrator\Desktop\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
-17:05:18.427 INFO  - Copied contents of C:\Users\Administrator\Desktop\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
-17:05:18.753 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
-17:05:20.399 INFO  - Updating MSS for Board Support Package Project: mem_test_bsp.
+19:16:06.965 INFO  - Processing command line option -hwspec C:/Users/Administrator/Desktop/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+19:18:24.642 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:18:24.742 INFO  - PS initialization will be done as it is not done before. 
+19:18:24.742 INFO  - Running PS initialization.... 
+19:18:24.955 INFO  - ps7_init is completed. 
+19:18:25.055 INFO  - PS Initialization is complete. 
+19:29:15.249 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:36:11.562 INFO  - Processing command line option -hwspec C:/Users/Administrator/Desktop/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
+20:36:11.895 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/Administrator/Desktop/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
+20:36:11.911 INFO  - Copied contents of C:/Users/Administrator/Desktop/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+20:36:11.922 INFO  - Copied contents of C:\Users\Administrator\Desktop\lab2\lab2.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system.bit. 
+20:36:12.186 INFO  - Copied contents of C:\Users\Administrator\Desktop\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+20:36:12.188 INFO  - Copied contents of C:\Users\Administrator\Desktop\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+20:36:12.195 INFO  - Copied contents of C:\Users\Administrator\Desktop\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+20:36:12.198 INFO  - Copied contents of C:\Users\Administrator\Desktop\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+20:36:12.201 INFO  - Copied contents of C:\Users\Administrator\Desktop\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+20:36:12.424 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+20:36:14.124 INFO  - Updating MSS for Board Support Package Project: mem_test_bsp.
 		 The following new driver assignments were made:
 			Peripheral Instance: btns_4bit, driver: gpio_v3_01_a.
 			Peripheral Instance: sw_4bit, driver: gpio_v3_01_a.
  
-17:06:00.967 INFO  - Updating hardware inferred compiler options for mem_test. 
-17:06:01.201 INFO  - Clearing existing target manager status. 
-17:06:03.857 INFO  - Closing and re-opening the MSS file of ther project mem_test_bsp 
-17:06:05.726 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
-17:11:20.345 INFO  - FPGA configured successfully with bitstream "C:/Users/Administrator/Desktop/lab2/lab2.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
-17:11:48.715 INFO  - Processor reset is completed for ps7_cortexa9_0 
-17:11:48.815 INFO  - PS initialization will be done as it is not done before. 
-17:11:48.815 INFO  - Running PS initialization.... 
-17:11:49.073 INFO  - ps7_init is completed. 
-17:11:49.173 INFO  - ps7_post_config is completed. 
-17:11:49.273 INFO  - PS Initialization is complete. 
-17:17:46.563 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:36:55.723 INFO  - Updating hardware inferred compiler options for mem_test. 
+20:36:55.743 INFO  - Clearing existing target manager status. 
+20:36:58.342 INFO  - Closing and re-opening the MSS file of ther project mem_test_bsp 
+20:37:00.424 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+20:43:50.286 INFO  - FPGA configured successfully with bitstream "C:/Users/Administrator/Desktop/lab2/lab2.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+20:44:23.002 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:44:23.102 INFO  - PS initialization will be done as it is not done before. 
+20:44:23.102 INFO  - Running PS initialization.... 
+20:44:23.319 INFO  - ps7_init is completed. 
+20:44:23.419 INFO  - ps7_post_config is completed. 
+20:44:23.519 INFO  - PS Initialization is complete. 
+20:45:47.980 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:45:53.476 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:47:59.040 INFO  - FPGA configured successfully with bitstream "C:/Users/Administrator/Desktop/lab2/lab2.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+20:48:45.201 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:48:45.301 INFO  - PS initialization will be done as it is not done before. 
+20:48:45.301 INFO  - Running PS initialization.... 
+20:48:45.524 INFO  - ps7_init is completed. 
+20:48:45.624 INFO  - ps7_post_config is completed. 
+20:48:45.724 INFO  - PS Initialization is complete. 
+20:50:09.489 INFO  - FPGA configured successfully with bitstream "C:/Users/Administrator/Desktop/lab2/lab2.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+20:50:27.606 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:50:27.706 INFO  - PS initialization will be done as it is not done before. 
+20:50:27.706 INFO  - Running PS initialization.... 
+20:50:27.924 INFO  - ps7_init is completed. 
+20:50:28.024 INFO  - ps7_post_config is completed. 
+20:50:28.124 INFO  - PS Initialization is complete. 
+20:52:00.646 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:55:52.058 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:01:29.708 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+21:01:29.709 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 

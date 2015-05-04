@@ -1,4 +1,4 @@
-17:06:08 **** Build of project mem_test_bsp ****
+20:37:02 **** Build of project mem_test_bsp ****
 make -k all 
 libgen -hw ../hw_platform_0/system.xml\
 	       \
@@ -39,5 +39,5 @@ arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
 Running execs_generate.
 'Finished building libraries'
 
-17:06:43 Build Finished (took 35s.346ms)
+20:37:42 Build Finished (took 39s.722ms)
 

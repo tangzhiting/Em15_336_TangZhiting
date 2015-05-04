@@ -2,8 +2,8 @@
 # Vivado v2013.4 (64-bit)
 # SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
 # IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
-# Start of session at: Mon Apr 20 16:52:39 2015
-# Process ID: 6836
+# Start of session at: Mon May 04 20:24:02 2015
+# Process ID: 17120
 # Log file: C:/Users/Administrator/Desktop/lab2/lab2.runs/synth_1/system_wrapper.rds
 # Journal file: C:/Users/Administrator/Desktop/lab2/lab2.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
@@ -31,9 +31,9 @@ INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2013.4/dat
 # set_property used_in_implementation false [get_files -all c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_ooc.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0_ooc.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0_board.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0_board.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1_ooc.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1_board.xdc]
@@ -59,7 +59,7 @@ Starting synthesis...
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:01:48 ; elapsed = 00:02:25 . Memory (MB): peak = 278.711 ; gain = 131.766
+Starting RTL Elaboration : Time (s): cpu = 00:01:50 ; elapsed = 00:02:29 . Memory (MB): peak = 277.969 ; gain = 130.887
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'system_wrapper' [C:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:31]
 INFO: [Synth 8-3491] module 'system' declared at 'C:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/hdl/system.vhd:1070' bound to instance 'system_i' of component 'system' [C:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:60]
@@ -1338,8 +1338,8 @@ INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_crossbar_sasd' (
 INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_axi_crossbar' (42#1) [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v:54]
 INFO: [Synth 8-256] done synthesizing module 'system_xbar_1' (43#1) [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_xbar_1/synth/system_xbar_1.v:57]
 INFO: [Synth 8-256] done synthesizing module 'system_processing_system7_0_axi_periph_0' (44#1) [C:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/hdl/system.vhd:600]
-INFO: [Synth 8-3491] module 'system_rst_processing_system7_0_100M_0' declared at 'c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd:56' bound to instance 'rst_processing_system7_0_100M' of component 'system_rst_processing_system7_0_100M_0' [C:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/hdl/system.vhd:1515]
-INFO: [Synth 8-638] synthesizing module 'system_rst_processing_system7_0_100M_0' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd:71]
+INFO: [Synth 8-3491] module 'system_rst_processing_system7_0_50M_0' declared at 'c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/synth/system_rst_processing_system7_0_50M_0.vhd:56' bound to instance 'rst_processing_system7_0_50M' of component 'system_rst_processing_system7_0_50M_0' [C:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/hdl/system.vhd:1515]
+INFO: [Synth 8-638] synthesizing module 'system_rst_processing_system7_0_50M_0' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/synth/system_rst_processing_system7_0_50M_0.vhd:71]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
@@ -1349,8 +1349,8 @@ INFO: [Synth 8-638] synthesizing module 'system_rst_processing_system7_0_100M_0'
 	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
 	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
 	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'proc_sys_reset' declared at 'c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd:140' bound to instance 'U0' of component 'proc_sys_reset' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd:117]
-INFO: [Synth 8-638] synthesizing module 'proc_sys_reset__parameterized0' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd:199]
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at 'c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd:140' bound to instance 'U0' of component 'proc_sys_reset' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/synth/system_rst_processing_system7_0_50M_0.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset__parameterized0' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd:199]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
@@ -1360,23 +1360,23 @@ INFO: [Synth 8-638] synthesizing module 'proc_sys_reset__parameterized0' [c:/Use
 	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
 	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
 	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'lpf' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd:136]
+INFO: [Synth 8-638] synthesizing module 'lpf' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd:136]
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
 	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
-INFO: [Synth 8-3491] module 'SRL16' declared at 'D:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v:34784' bound to instance 'POR_SRL_I' of component 'SRL16' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd:188]
+INFO: [Synth 8-3491] module 'SRL16' declared at 'D:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v:34784' bound to instance 'POR_SRL_I' of component 'SRL16' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd:188]
 INFO: [Synth 8-638] synthesizing module 'SRL16' [D:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v:34784]
 	Parameter INIT bound to: 16'b0000000000000000 
 INFO: [Synth 8-256] done synthesizing module 'SRL16' (45#1) [D:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v:34784]
-INFO: [Synth 8-256] done synthesizing module 'lpf' (46#1) [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd:136]
-INFO: [Synth 8-638] synthesizing module 'sequence' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd:146]
-INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (46#1) [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd:136]
+INFO: [Synth 8-638] synthesizing module 'sequence' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd:126]
 	Parameter C_SIZE bound to: 6 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (47#1) [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd:126]
-INFO: [Synth 8-256] done synthesizing module 'sequence' (48#1) [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd:146]
-INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset__parameterized0' (49#1) [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd:199]
-INFO: [Synth 8-256] done synthesizing module 'system_rst_processing_system7_0_100M_0' (50#1) [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd:71]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (47#1) [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'sequence' (48#1) [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd:146]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset__parameterized0' (49#1) [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd:199]
+INFO: [Synth 8-256] done synthesizing module 'system_rst_processing_system7_0_50M_0' (50#1) [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/synth/system_rst_processing_system7_0_50M_0.vhd:71]
 INFO: [Synth 8-3491] module 'system_axi_gpio_0_0' declared at 'c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/synth/system_axi_gpio_0_0.vhd:59' bound to instance 'sw_4bit' of component 'system_axi_gpio_0_0' [C:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/hdl/system.vhd:1528]
 INFO: [Synth 8-638] synthesizing module 'system_axi_gpio_0_0' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/synth/system_axi_gpio_0_0.vhd:84]
 	Parameter C_FAMILY bound to: zynq - type: string 
@@ -1399,7 +1399,7 @@ INFO: [Synth 8-256] done synthesizing module 'system_axi_gpio_0_0' (51#1) [c:/Us
 INFO: [Synth 8-256] done synthesizing module 'system' (52#1) [C:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/hdl/system.vhd:1100]
 INFO: [Synth 8-256] done synthesizing module 'system_wrapper' (53#1) [C:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:31]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:02:16 ; elapsed = 00:02:57 . Memory (MB): peak = 370.336 ; gain = 223.391
+Finished RTL Elaboration : Time (s): cpu = 00:02:20 ; elapsed = 00:03:04 . Memory (MB): peak = 369.777 ; gain = 222.695
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -1430,10 +1430,10 @@ Parsing XDC File [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/sys
 Finished Parsing XDC File [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc] for cell 'system_i/sw_4bit/U0'
 Parsing XDC File [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc] for cell 'system_i/sw_4bit/U0'
 Finished Parsing XDC File [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc] for cell 'system_i/sw_4bit/U0'
-Parsing XDC File [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0.xdc] for cell 'system_i/rst_processing_system7_0_100M/U0'
-Finished Parsing XDC File [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0.xdc] for cell 'system_i/rst_processing_system7_0_100M/U0'
-Parsing XDC File [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0_board.xdc] for cell 'system_i/rst_processing_system7_0_100M/U0'
-Finished Parsing XDC File [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0_board.xdc] for cell 'system_i/rst_processing_system7_0_100M/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0.xdc] for cell 'system_i/rst_processing_system7_0_50M/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0.xdc] for cell 'system_i/rst_processing_system7_0_50M/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0_board.xdc] for cell 'system_i/rst_processing_system7_0_50M/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0_board.xdc] for cell 'system_i/rst_processing_system7_0_50M/U0'
 Parsing XDC File [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1.xdc] for cell 'system_i/btns_4bit/U0'
 Finished Parsing XDC File [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1.xdc] for cell 'system_i/btns_4bit/U0'
 Parsing XDC File [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1_board.xdc] for cell 'system_i/btns_4bit/U0'
@@ -1474,15 +1474,15 @@ Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Administrator
 Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Administrator/Desktop/lab2/lab2.runs/synth_1/dont_touch.xdc, line 42).
 Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Administrator/Desktop/lab2/lab2.runs/synth_1/dont_touch.xdc, line 52).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:30 ; elapsed = 00:03:12 . Memory (MB): peak = 548.633 ; gain = 401.688
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:36 ; elapsed = 00:03:24 . Memory (MB): peak = 548.191 ; gain = 401.109
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished RTL Optimization : Time (s): cpu = 00:02:30 ; elapsed = 00:03:12 . Memory (MB): peak = 548.633 ; gain = 401.688
+Finished RTL Optimization : Time (s): cpu = 00:02:36 ; elapsed = 00:03:24 . Memory (MB): peak = 548.191 ; gain = 401.109
 ---------------------------------------------------------------------------------
 
 INFO: [Synth 8-4471] merging register 'gen_axilite.s_axi_wready_i_reg' into 'gen_axilite.s_axi_awready_i_reg' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v:136]
-INFO: [Synth 8-4471] merging register 'seq_cnt_en_reg' into 'from_sys_reg' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd:222]
+INFO: [Synth 8-4471] merging register 'seq_cnt_en_reg' into 'from_sys_reg' [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd:222]
 WARNING: [Synth 8-3848] Net ENET0_GMII_TX_EN in module/entity processing_system7_v5_3_processing_system7__parameterized0 does not have driver. [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v:210]
 WARNING: [Synth 8-3848] Net ENET0_GMII_TX_ER in module/entity processing_system7_v5_3_processing_system7__parameterized0 does not have driver. [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v:211]
 WARNING: [Synth 8-3848] Net ENET0_GMII_TXD in module/entity processing_system7_v5_3_processing_system7__parameterized0 does not have driver. [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v:227]
@@ -1517,7 +1517,7 @@ Part Resources:
 DSPs: 80 (col length:40)
 BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:02:41 ; elapsed = 00:03:23 . Memory (MB): peak = 597.051 ; gain = 450.105
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:49 ; elapsed = 00:03:39 . Memory (MB): peak = 595.711 ; gain = 448.629
 ---------------------------------------------------------------------------------
 
 
@@ -1894,7 +1894,7 @@ Module proc_sys_reset__parameterized0
 Detailed RTL Component Info : 
 +---Registers : 
 	                1 Bit    Registers := 5     
-Module system_rst_processing_system7_0_100M_0 
+Module system_rst_processing_system7_0_50M_0 
 Detailed RTL Component Info : 
 Module system_axi_gpio_0_0 
 Detailed RTL Component Info : 
@@ -2014,7 +2014,7 @@ INFO: [Synth 8-3332] Sequential element (\inst/gen_sasd.crossbar_sasd_0/addr_arb
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg' and it is trimmed from '36' to '35' bits. [c:/Users/Administrator/Desktop/lab2/lab2.srcs/sources_1/bd/system/ip/system_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:02:42 ; elapsed = 00:03:24 . Memory (MB): peak = 607.785 ; gain = 460.840
+Finished Cross Boundary Optimization : Time (s): cpu = 00:02:50 ; elapsed = 00:03:39 . Memory (MB): peak = 606.355 ; gain = 459.273
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -2028,7 +2028,7 @@ Finished RAM, DSP and Shift Register Reporting
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:02:43 ; elapsed = 00:03:26 . Memory (MB): peak = 632.137 ; gain = 485.191
+Finished Area Optimization : Time (s): cpu = 00:02:52 ; elapsed = 00:03:42 . Memory (MB): peak = 631.063 ; gain = 483.980
 ---------------------------------------------------------------------------------
 
 
@@ -2041,11 +2041,11 @@ Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 INFO: Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:45 ; elapsed = 00:03:28 . Memory (MB): peak = 779.855 ; gain = 632.910
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:54 ; elapsed = 00:03:44 . Memory (MB): peak = 779.512 ; gain = 632.430
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:46 ; elapsed = 00:03:28 . Memory (MB): peak = 795.543 ; gain = 648.598
+Finished Timing Optimization : Time (s): cpu = 00:02:54 ; elapsed = 00:03:45 . Memory (MB): peak = 795.602 ; gain = 648.520
 ---------------------------------------------------------------------------------
 
 
@@ -2053,7 +2053,7 @@ Finished Timing Optimization : Time (s): cpu = 00:02:46 ; elapsed = 00:03:28 . M
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:48 ; elapsed = 00:03:31 . Memory (MB): peak = 803.430 ; gain = 656.484
+Finished Technology Mapping : Time (s): cpu = 00:02:57 ; elapsed = 00:03:48 . Memory (MB): peak = 802.750 ; gain = 655.668
 ---------------------------------------------------------------------------------
 
 
@@ -2079,7 +2079,7 @@ Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Gated Clock Conversion mode: off
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:50 ; elapsed = 00:03:33 . Memory (MB): peak = 803.430 ; gain = 656.484
+Finished IO Insertion : Time (s): cpu = 00:02:59 ; elapsed = 00:03:50 . Memory (MB): peak = 802.750 ; gain = 655.668
 ---------------------------------------------------------------------------------
 
 
@@ -2094,7 +2094,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:50 ; elapsed = 00:03:33 . Memory (MB): peak = 803.430 ; gain = 656.484
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:59 ; elapsed = 00:03:50 . Memory (MB): peak = 802.750 ; gain = 655.668
 ---------------------------------------------------------------------------------
 
 
@@ -2102,7 +2102,7 @@ Finished Renaming Generated Instances : Time (s): cpu = 00:02:50 ; elapsed = 00:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:50 ; elapsed = 00:03:33 . Memory (MB): peak = 803.430 ; gain = 656.484
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:00 ; elapsed = 00:03:50 . Memory (MB): peak = 802.750 ; gain = 655.668
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -2172,17 +2172,17 @@ Report Instance Areas:
 |7     |    processing_system7_0_axi_periph |system_processing_system7_0_axi_periph_0                   |  1582|
 |8     |      \s00_couplers/auto_pc         |system_auto_pc_2                                           |  1276|
 |9     |      xbar                          |system_xbar_1                                              |   306|
-|10    |    rst_processing_system7_0_100M   |system_rst_processing_system7_0_100M_0                     |    65|
+|10    |    rst_processing_system7_0_50M    |system_rst_processing_system7_0_50M_0                      |    65|
 |11    |      U0                            |proc_sys_reset__parameterized0                             |    65|
 |12    |    sw_4bit                         |system_axi_gpio_0_0                                        |    93|
 |13    |      U0                            |axi_gpio__parameterized0                                   |    93|
 +------+------------------------------------+-----------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:51 ; elapsed = 00:03:33 . Memory (MB): peak = 803.430 ; gain = 656.484
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:00 ; elapsed = 00:03:50 . Memory (MB): peak = 802.750 ; gain = 655.668
 ---------------------------------------------------------------------------------
 
 Synthesis finished with 0 errors, 0 critical warnings and 22 warnings.
-Synthesis Optimization Complete : Time (s): cpu = 00:02:51 ; elapsed = 00:03:33 . Memory (MB): peak = 803.430 ; gain = 656.484
+Synthesis Optimization Complete : Time (s): cpu = 00:03:00 ; elapsed = 00:03:50 . Memory (MB): peak = 802.750 ; gain = 655.668
 INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
@@ -2196,9 +2196,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 295 Infos, 141 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:03:00 ; elapsed = 00:03:43 . Memory (MB): peak = 1182.117 ; gain = 960.230
+synth_design: Time (s): cpu = 00:03:11 ; elapsed = 00:04:03 . Memory (MB): peak = 1181.438 ; gain = 959.191
 # write_checkpoint system_wrapper.dcp
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 # report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 1182.117 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon Apr 20 16:56:27 2015...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.148 . Memory (MB): peak = 1181.438 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May 04 20:28:11 2015...

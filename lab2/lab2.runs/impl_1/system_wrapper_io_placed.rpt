@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date         : Mon Apr 20 17:01:43 2015
+| Date         : Mon May 04 20:33:44 2015
 | Host         :  running 64-bit Service Pack 1  (build 7601)
 | Command      : report_io -file system_wrapper_io_placed.rpt
 | Design       : system_wrapper
@@ -63,7 +63,7 @@ Table of Contents
 | B9         | FIXED_IO_mio[51]   | IOPAD     | PS_MIO51_501            | BIDIR     | LVCMOS18*         |                |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
 | B10        | FIXED_IO_ps_srstb  | IOPAD     | PS_SRST_B_501           | BIDIR     | LVCMOS18*         |                |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
 | B11        |                    |           | GND                     |           |                   |                |            |           |             |           |         |            |                        |                  |
-| B12        | FIXED_IO_mio[48]   | IOPAD     | PS_MIO48_501            | BIDIR     | LVCMOS18*         |                |          8 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
+| B12        | FIXED_IO_mio[48]   | IOPAD     | PS_MIO48_501            | BIDIR     | LVCMOS33          |                |          8 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
 | B13        | FIXED_IO_mio[50]   | IOPAD     | PS_MIO50_501            | BIDIR     | LVCMOS18*         |                |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
 | B14        | FIXED_IO_mio[47]   | IOPAD     | PS_MIO47_501            | BIDIR     | LVCMOS18*         |                |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
 | B15        | FIXED_IO_mio[45]   | IOPAD     | PS_MIO45_501            | BIDIR     | LVCMOS18*         |                |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
@@ -83,7 +83,7 @@ Table of Contents
 | C9         |                    |           | GND                     |           |                   |                |            |           |             |           |         |            |                        |                  |
 | C10        | FIXED_IO_mio[52]   | IOPAD     | PS_MIO52_501            | BIDIR     | LVCMOS18*         |                |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
 | C11        | FIXED_IO_mio[53]   | IOPAD     | PS_MIO53_501            | BIDIR     | LVCMOS18*         |                |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
-| C12        | FIXED_IO_mio[49]   | IOPAD     | PS_MIO49_501            | BIDIR     | LVCMOS18*         |                |          8 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
+| C12        | FIXED_IO_mio[49]   | IOPAD     | PS_MIO49_501            | BIDIR     | LVCMOS33          |                |          8 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
 | C13        | FIXED_IO_mio[29]   | IOPAD     | PS_MIO29_501            | BIDIR     | LVCMOS18*         |                |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
 | C14        |                    |           | GND                     |           |                   |                |            |           |             |           |         |            |                        |                  |
 | C15        | FIXED_IO_mio[30]   | IOPAD     | PS_MIO30_501            | BIDIR     | LVCMOS18*         |                |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |

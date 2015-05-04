@@ -1,4 +1,4 @@
-17:06:43 **** Build of configuration Debug for project mem_test ****
+20:37:42 **** Build of configuration Debug for project mem_test ****
 make all 
 'Building file: ../src/memory_config_g.c'
 'Invoking: ARM gcc compiler'
@@ -27,5 +27,5 @@ arm-xilinx-eabi-size mem_test.elf  |tee "mem_test.elf.size"
 'Finished building: mem_test.elf.size'
 ' '
 
-17:06:50 Build Finished (took 6s.620ms)
+20:37:48 Build Finished (took 6s.482ms)
 

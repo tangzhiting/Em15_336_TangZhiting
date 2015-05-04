@@ -1188,7 +1188,7 @@ architecture STRUCTURE of system is
     gpio_io_i : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
   end component system_axi_gpio_0_0;
-  component system_rst_processing_system7_0_100M_0 is
+  component system_rst_processing_system7_0_50M_0 is
   port (
     slowest_sync_clk : in STD_LOGIC;
     ext_reset_in : in STD_LOGIC;
@@ -1201,7 +1201,7 @@ architecture STRUCTURE of system is
     interconnect_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 );
     peripheral_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  end component system_rst_processing_system7_0_100M_0;
+  end component system_rst_processing_system7_0_50M_0;
   component system_axi_gpio_0_1 is
   port (
     s_axi_aclk : in STD_LOGIC;
@@ -1324,12 +1324,12 @@ architecture STRUCTURE of system is
   signal processing_system7_0_axi_periph_M01_AXI_WREADY : STD_LOGIC;
   signal processing_system7_0_axi_periph_M01_AXI_WSTRB : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal processing_system7_0_axi_periph_M01_AXI_WVALID : STD_LOGIC;
-  signal rst_processing_system7_0_100M_interconnect_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal rst_processing_system7_0_100M_peripheral_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal rst_processing_system7_0_50M_interconnect_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal rst_processing_system7_0_50M_peripheral_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
   signal sw_4bit_GPIO_TRI_I : STD_LOGIC_VECTOR ( 3 downto 0 );
-  signal NLW_rst_processing_system7_0_100M_mb_reset_UNCONNECTED : STD_LOGIC;
-  signal NLW_rst_processing_system7_0_100M_bus_struct_reset_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal NLW_rst_processing_system7_0_100M_peripheral_reset_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal NLW_rst_processing_system7_0_50M_mb_reset_UNCONNECTED : STD_LOGIC;
+  signal NLW_rst_processing_system7_0_50M_bus_struct_reset_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal NLW_rst_processing_system7_0_50M_peripheral_reset_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
 begin
   btns_4bit_GPIO_TRI_I(3 downto 0) <= btns_4bit_tri_i(3 downto 0);
   sw_4bit_GPIO_TRI_I(3 downto 0) <= sw_4bit_tri_i(3 downto 0);
@@ -1346,7 +1346,7 @@ btns_4bit: component system_axi_gpio_0_1
       gpio_io_i(3 downto 0) => btns_4bit_GPIO_TRI_I(3 downto 0),
       s_axi_aclk => processing_system7_0_FCLK_CLK0,
       s_axi_araddr(8 downto 0) => processing_system7_0_axi_periph_M01_AXI_ARADDR(8 downto 0),
-      s_axi_aresetn => rst_processing_system7_0_100M_peripheral_aresetn(0),
+      s_axi_aresetn => rst_processing_system7_0_50M_peripheral_aresetn(0),
       s_axi_arready => processing_system7_0_axi_periph_M01_AXI_ARREADY,
       s_axi_arvalid => processing_system7_0_axi_periph_M01_AXI_ARVALID,
       s_axi_awaddr(8 downto 0) => processing_system7_0_axi_periph_M01_AXI_AWADDR(8 downto 0),
@@ -1432,9 +1432,9 @@ processing_system7_0: component system_processing_system7_0_0
 processing_system7_0_axi_periph: entity work.system_processing_system7_0_axi_periph_0
     port map (
       ACLK => processing_system7_0_FCLK_CLK0,
-      ARESETN(0) => rst_processing_system7_0_100M_interconnect_aresetn(0),
+      ARESETN(0) => rst_processing_system7_0_50M_interconnect_aresetn(0),
       M00_ACLK => processing_system7_0_FCLK_CLK0,
-      M00_ARESETN(0) => rst_processing_system7_0_100M_peripheral_aresetn(0),
+      M00_ARESETN(0) => rst_processing_system7_0_50M_peripheral_aresetn(0),
       M00_AXI_araddr(8 downto 0) => processing_system7_0_axi_periph_M00_AXI_ARADDR(8 downto 0),
       M00_AXI_arready(0) => processing_system7_0_axi_periph_M00_AXI_ARREADY,
       M00_AXI_arvalid(0) => processing_system7_0_axi_periph_M00_AXI_ARVALID(0),
@@ -1453,7 +1453,7 @@ processing_system7_0_axi_periph: entity work.system_processing_system7_0_axi_per
       M00_AXI_wstrb(3 downto 0) => processing_system7_0_axi_periph_M00_AXI_WSTRB(3 downto 0),
       M00_AXI_wvalid(0) => processing_system7_0_axi_periph_M00_AXI_WVALID(0),
       M01_ACLK => processing_system7_0_FCLK_CLK0,
-      M01_ARESETN(0) => rst_processing_system7_0_100M_peripheral_aresetn(0),
+      M01_ARESETN(0) => rst_processing_system7_0_50M_peripheral_aresetn(0),
       M01_AXI_araddr(8 downto 0) => processing_system7_0_axi_periph_M01_AXI_ARADDR(8 downto 0),
       M01_AXI_arready => processing_system7_0_axi_periph_M01_AXI_ARREADY,
       M01_AXI_arvalid => processing_system7_0_axi_periph_M01_AXI_ARVALID,
@@ -1472,7 +1472,7 @@ processing_system7_0_axi_periph: entity work.system_processing_system7_0_axi_per
       M01_AXI_wstrb(3 downto 0) => processing_system7_0_axi_periph_M01_AXI_WSTRB(3 downto 0),
       M01_AXI_wvalid => processing_system7_0_axi_periph_M01_AXI_WVALID,
       S00_ACLK => processing_system7_0_FCLK_CLK0,
-      S00_ARESETN(0) => rst_processing_system7_0_100M_peripheral_aresetn(0),
+      S00_ARESETN(0) => rst_processing_system7_0_50M_peripheral_aresetn(0),
       S00_AXI_araddr(31 downto 0) => processing_system7_0_M_AXI_GP0_ARADDR(31 downto 0),
       S00_AXI_arburst(1 downto 0) => processing_system7_0_M_AXI_GP0_ARBURST(1 downto 0),
       S00_AXI_arcache(3 downto 0) => processing_system7_0_M_AXI_GP0_ARCACHE(3 downto 0),
@@ -1512,17 +1512,17 @@ processing_system7_0_axi_periph: entity work.system_processing_system7_0_axi_per
       S00_AXI_wstrb(3 downto 0) => processing_system7_0_M_AXI_GP0_WSTRB(3 downto 0),
       S00_AXI_wvalid => processing_system7_0_M_AXI_GP0_WVALID
     );
-rst_processing_system7_0_100M: component system_rst_processing_system7_0_100M_0
+rst_processing_system7_0_50M: component system_rst_processing_system7_0_50M_0
     port map (
       aux_reset_in => VCC_1,
-      bus_struct_reset(0) => NLW_rst_processing_system7_0_100M_bus_struct_reset_UNCONNECTED(0),
+      bus_struct_reset(0) => NLW_rst_processing_system7_0_50M_bus_struct_reset_UNCONNECTED(0),
       dcm_locked => VCC_1,
       ext_reset_in => processing_system7_0_FCLK_RESET0_N,
-      interconnect_aresetn(0) => rst_processing_system7_0_100M_interconnect_aresetn(0),
+      interconnect_aresetn(0) => rst_processing_system7_0_50M_interconnect_aresetn(0),
       mb_debug_sys_rst => GND_1,
-      mb_reset => NLW_rst_processing_system7_0_100M_mb_reset_UNCONNECTED,
-      peripheral_aresetn(0) => rst_processing_system7_0_100M_peripheral_aresetn(0),
-      peripheral_reset(0) => NLW_rst_processing_system7_0_100M_peripheral_reset_UNCONNECTED(0),
+      mb_reset => NLW_rst_processing_system7_0_50M_mb_reset_UNCONNECTED,
+      peripheral_aresetn(0) => rst_processing_system7_0_50M_peripheral_aresetn(0),
+      peripheral_reset(0) => NLW_rst_processing_system7_0_50M_peripheral_reset_UNCONNECTED(0),
       slowest_sync_clk => processing_system7_0_FCLK_CLK0
     );
 sw_4bit: component system_axi_gpio_0_0
@@ -1530,7 +1530,7 @@ sw_4bit: component system_axi_gpio_0_0
       gpio_io_i(3 downto 0) => sw_4bit_GPIO_TRI_I(3 downto 0),
       s_axi_aclk => processing_system7_0_FCLK_CLK0,
       s_axi_araddr(8 downto 0) => processing_system7_0_axi_periph_M00_AXI_ARADDR(8 downto 0),
-      s_axi_aresetn => rst_processing_system7_0_100M_peripheral_aresetn(0),
+      s_axi_aresetn => rst_processing_system7_0_50M_peripheral_aresetn(0),
       s_axi_arready => processing_system7_0_axi_periph_M00_AXI_ARREADY,
       s_axi_arvalid => processing_system7_0_axi_periph_M00_AXI_ARVALID(0),
       s_axi_awaddr(8 downto 0) => processing_system7_0_axi_periph_M00_AXI_AWADDR(8 downto 0),
